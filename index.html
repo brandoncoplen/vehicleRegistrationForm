@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Vehicle Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h3>Welcome to Integrated Engineering</h3>
+
+					<h6>Before you search for parts, please create a vehicle profile</h6>
+					<h4 class="heading-section">Create Your Vehicle Profile here:</h4>
+				</div>
+			</div>
+			
+									<h3 class="mb-4">Vehicle Profile</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<input type="password" class="form-control" name="password" id="password" placeholder="Password">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label for="cars">Make:</label>
+													<select id='make-selector' name="make">
+														<option value="Volkswagen">Volkswagen</option>
+														<option value="Audi">Audi</option>
+													</select>
+													
+													<label for="model">Model</label>
+													<select id='model-selector' name="model">
+													</select><br>
+
+													<!-- <label for="engine">Engine</label>
+													<select id='engine-selector' name="engine">
+														<option value="GTI">GTI</option>
+														<option value="Bug">Bug</option>
+														<option value="Tiguan">Tiguan</option>
+													</select> -->
+
+													<label for="catagory"><h4> Please select what kind of parts you are interested in:</h4></label><br>
+													<input type="checkbox" id="option1" name="option1" value="Engine">
+													<label for="option1"> Engine</label><br>
+													<input type="checkbox" id="option2" name="option2" value="Exterior">
+													<label for="option2"> Exterior</label><br>
+													<input type="checkbox" id="option3" name="option3" value="Interior">
+													<label for="option3"> Interior</label><br>
+													<input type="checkbox" id="option4" name="option4" value="Wheels">
+													<label for="option4"> Wheels</label><br><br>
+
+													<h4>What kind of driver are you?</h4>
+													<input type="radio" id="driver1" name="driver" value="30">
+													<label for="driver1">Comfort</label><br>
+													<input type="radio" id="driver2" name="driver" value="60">
+													<label for="driver2">Sport</label><br>  
+													<input type="radio" id="driver3" name="driver" value="100">
+													<label for="driver3">Race</label><br><br>
+
+													
+
+													<label for="parts-time"><h4>Choose the time you need your parts by:</h4></label>
+														<input type="datetime-local" id="parts-time"
+															name="meeting-time" value="2018-06-12T19:30"
+															min="2018-06-07T00:00" max="2042-06-14T00:00">
+
+													
+
+
+													
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Submit" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>GitHub: <a href=""></a> Validity: <a href=""></a>
+
+		</p>
+
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	</body>
+</html>
+
