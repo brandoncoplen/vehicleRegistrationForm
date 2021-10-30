@@ -5,13 +5,9 @@
 $font-primary: 'Poppins',Arial, sans-serif;
 $primary: #1089ff;
 
-body{
-	font-family: $font-primary;
-	font-size: 16px;
-	line-height: 1.8;
-	font-weight: normal;
-	background: #fafafa;
-	color: lighten($black,50%);
+section{
+	margin: 100px;
+	width: 200px;
 }
 a {
 	transition: .3s all ease;
@@ -30,12 +26,17 @@ h1, h2, h3, h4, h5,
 	color: $black;
 }
 
+
+
+
 .bg-primary{
 	background: $primary !important;
 }
 
 .ftco-section{
 	padding: 7em 0;
+	text-align: center;
+	
 }
 
 .ftco-no-pt{
@@ -56,6 +57,7 @@ h1, h2, h3, h4, h5,
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
 
 .form-control {
 	height: 52px;
@@ -84,6 +86,8 @@ h1, h2, h3, h4, h5,
 textarea.form-control {
 	height: inherit!important;
 }
+
+
 
 
 .wrapper{
